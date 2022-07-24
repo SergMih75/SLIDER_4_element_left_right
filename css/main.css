@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.slider_container {
+    width: 1920px;
+    height: 831px;
+    margin: 0 auto;
+    padding-top: 70px;
+    background-color: #00BF96;
+}
+
+.slider_title {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    margin-left: 359px;
+    margin-bottom: 50px;
+}
+
+.case {
+    width: 1200px;
+    height: 549px;
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    margin-left: 359px;
+    box-shadow: 0px 4px 50px rgba(26, 61, 138, 0.15);
+}
+
+.case_box {
+    width: 4800px;
+    height: 549px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    left: 0;
+    transition: 500ms;
+}
+
+.case_block {
+    width: 1200px;
+    height: 449px;
+    padding: 50px;
+    background-color: white;
+    display: flex;
+}
+
+.case_block_left {
+    width: 300px;
+    height: 400px;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left_title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: #1A3D8A;
+}
+
+.case_block_right {
+    width: 740px;
+    height: 400px;
+}
+
+.right_title {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    color: #212121;
+    margin-bottom: 20px;
+}
+
+.right_txt {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 27px;
+    color: #212121;
+    margin-bottom: 40px;
+}
+
+.right_btn {
+    width: 280px;
+    height: 45px;
+    background: #1A3D8A;
+    border-radius: 25px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    margin-top: 72px;
+    cursor: pointer;
+}
+
+.arrow {
+    margin-top: -64px;
+    margin-left: 412px;
+    position: relative;
+    z-index: 2;
+    width: 295px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_left {
+    width: 48px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/left.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff00;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn_left:disabled {
+    cursor: not-allowed;
+    background-image: url(../img/leftEnd.png);
+}
+
+.btn_right {
+    width: 48px;
+    height: 25px;
+    display: inline-block;
+    background-image: url(../img/right.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff00;
+    border: 0px;
+    cursor: pointer;
+}
+
+.btn_right:disabled {
+    cursor: not-allowed;
+    background-image: url(../img/rightEnd.png);
+}
